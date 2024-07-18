@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+.boxcenter{
+    width: 63.7%;
+    margin: 0 auto;
+   }
+.row{
+    width: 100%;
+    float: left;
+}
+.mb{
+    margin-bottom: 15px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%;
+}
+.header{
+    background-color: chocolate;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+.footer{
+    background-color: hotpink;
+    border: 1px darkgrey solid;
+    font-size: 0.8vw;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+}
+.header h1{
+    margin:  15px;
+    font-size: 1.2vw;
+}
+.menu{
+    background-color:#333;
+    border: 1px darkgrey solid;
+    color: rgb(114, 108, 99);
+    border-radius: 5px;
+}
+.boxphai{
+    float: right;
+    width: 26%;
+}
+.boxtrai{
+    width: 72%;
+    float: left;
+}
+.boxtieude{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+    
+}
+.boxcontent{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 10px;
+}
+.boxcontent2{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    background-color: #eee;
+}
+.boxfooter{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+
+}
+.boxbanner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.boxbanner img{
+    height: 300px;
+}
+.boxsp{
+    float: left;
+    width: 31%;
+    min-height: 200px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu ul{
+    padding:0px 15px;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding:0px 20px;
+}
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: #eee;
+    font-size: 0.8vw;
+
+}
+.img{
+    text-align: center;
+}
+.formtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="password"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.formtaikhoan input[type="submit"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border:1px #ccc solid;
+}
+.formtaikhoan input[type="submit"]:hover{ 
+    background-color: #ccc;
+}
+.formtaikhoan li a{
+    color: burlywood;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color:cadetblue;
+    text-decoration: underline;
+}
+.menudoc ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: #ccc solid;
+}
+.menudoc ul li a{
+    color: black;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+   background-color: #ccc;
+}
+.timbox input[type="text"]{
+   width: 100%;
+   padding: 5px;
+   border: 1px #ccc solid;
+   background-color: #fff;
+   border-radius: 5px;
+}
+.top10 img{
+    width: 15%;
+    height:30px ;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+.top10 a{
+    color:black;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color:darkslategray;
+    text-decoration: underline;
+}
+.headeradmin{
+    background-color:#333;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.headeradmin h1{
+    text-align: center;
+    font-size: 1.5vw;
+}
+/* Admin */
+.fromtitle{
+    background-color:#ccc;
+    color:#333;
+    border-radius: 5px;
+    padding: 5px;
+    width: 225px;
+}
+.fromcontent{
+    padding: 15px 0px;
+}
+.fromcontent input[type="submit"]:hover{ 
+    background-color: #ccc;
+}
+.fromcontent input[type="button"]:hover{ 
+    background-color: #ccc;
+}
+.fromcontent input[type="reset"]:hover{ 
+    background-color:#ccc;
+}
+.fromdanhsachloai table{
+  width: 100%;
+  border-collapse: collapse ;
+}
+.fromdanhsachloai table th { 
+    background-color: #ccc;
+    padding: 10px;
+}
+.fromdanhsachloaicart{
+   width: 500px;
+}
+
+/* .fromdanhsachloai table th:nth-child(2){
+    width: 20%; 
+    background-color: #ccc; 
+}
+.fromdanhsachloai table th:nth-child(3){
+    width: 50%;  
+    background-color: #ccc;
+}
+.fromdanhsachloai table th:nth-child(4){
+    width: 20%;  
+    background-color: #ccc;
+} */
+.fromdanhsachloai table td{
+    padding: 10px 20px;
+    border:1px #ccc solid;
+
+}
+
+/* slideshow*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+
+  /*=====  End of 14.about page   ======*/
+  /*=============================================
+=            15. Contact page            =
+=============================================*/
+  .contact-form-container {
+      padding: 23px 23px 0 23px;
+      margin: 0 0 30px 0;
+      background: url(../images/contact-form.webp) repeat-x white;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0 5px 13px;
+      box-shadow: rgba(0, 0, 0, 0.17) 0 5px 13px;
+      position: relative;
+      z-index: 1;
+  }
+
+  .contact-form-container:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../images/form-contact-shadow.webp") center bottom no-repeat;
+      background-size: contain;
+      content: "";
+      z-index: -1;
+  }
+
+  .contact-form-container form label {
+      font-weight: 800;
+      display: block;
+  }
+
+  .contact-form-container form input,
+  .contact-form-container form select,
+  .contact-form-container form textarea {
+      width: 100%;
+      border: 1px solid #d6d4d4;
+      background: #fbfbfb;
+      padding: 5px;
+      padding-left: 10px;
+  }
+
+  .contact-form-container form button {
+      width: auto;
+      font-size: 17px;
+      line-height: 21px;
+      color: white;
+      font-weight: bold;
+      background: #666666;
+      border: 1px solid;
+      border-color: #666;
+      border-radius: 0;
+      -webkit-transition: all 300ms ease;
+      transition: all 300ms ease;
+      padding: 10px 10px 10px 14px;
+      border: 1px solid;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+  }
+
+  .contact-form-container form button:hover {
+      background-color: #f36b63;
+  }
+
+  .contact-form-container form textarea {
+      resize: none;
+  }
+
+  .form-group {
+      margin-bottom: 1rem;
+  }
+
+  label {
+      margin-bottom: 0.5rem;
+  }
+  
